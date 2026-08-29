@@ -1,0 +1,8 @@
+{
+  "name": "Remix 1.0 CENTRALIZED DOCUMENT MANAGEMENT INFORMATION SYSTEM",
+  "description": "Demo",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
