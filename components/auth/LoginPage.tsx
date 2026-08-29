@@ -151,8 +151,11 @@ const LoginPage: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="text-center text-xs text-gray-400">
-            &copy; {new Date().getFullYear()} Global Organization Inc. All rights reserved.
+          <div className="text-center text-xs text-gray-400 space-y-4">
+            <p>&copy; {new Date().getFullYear()} Global Organization Inc. All rights reserved.</p>
+            <p className="italic text-gray-500 bg-gray-200/60 p-3 rounded-md text-[11px] leading-relaxed max-w-sm mx-auto">
+              Note: This is a sanitized demo version of a system originally built for an university records and archives office. All sensitive data and proprietary branding have been removed or anonymized to comply with privacy requirements.
+            </p>
           </div>
         </div>
       </div>
