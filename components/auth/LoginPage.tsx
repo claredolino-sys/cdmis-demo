@@ -50,19 +50,19 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="flex min-h-screen bg-gray-100">
       <div className="hidden lg:block lg:w-1/2 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80')"}}>
       </div>
-      <div className="w-full lg:w-1/2 flex items-center justify-center p-8">
-        <div className="w-full max-w-md space-y-8">
+      <div className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-8">
+        <div className="w-full max-w-md space-y-6 sm:space-y-8">
           <div className="text-center">
-            <h2 className="mt-6 text-2xl font-bold text-gray-900">
+            <h2 className="mt-4 sm:mt-6 text-xl sm:text-2xl font-bold text-gray-900">
               Global Organization Inc.
             </h2>
             <p className="mt-2 text-sm text-gray-600">123 Business Rd, Metropolis</p>
-            <h3 className="mt-4 text-xl font-semibold text-indigo-700">Centralized Document Management Information System</h3>
+            <h3 className="mt-4 text-lg sm:text-xl font-semibold text-indigo-700">Centralized Document Management Information System</h3>
           </div>
-          <div className="bg-white p-8 rounded-xl shadow-lg">
+          <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg">
             <form onSubmit={handleLogin} className="space-y-6">
               <div className="text-center mb-4">
                   <p className="text-gray-600 font-medium">Login in to your account</p>
