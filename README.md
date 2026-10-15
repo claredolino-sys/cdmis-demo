@@ -23,7 +23,7 @@ Comprehensive architectural and engineering documentation with Mermaid diagrams:
 
 ## 🚀 Live Demo & Access
 
-*(Add your live deployed link here, e.g., Vercel or Netlify)*
+**Live Demo Link: https://cdmis-demo.netlify.app
 
 ### 🔐 Demo Credentials
 The application includes a mock authentication system with seeded data. You can use the **"One-Click Login"** buttons on the portal, or log in manually with the following credentials:
