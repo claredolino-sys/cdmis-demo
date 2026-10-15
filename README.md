@@ -12,6 +12,15 @@ A fully functional frontend replica of a Document Management System. This demo s
 - **Audit Trails & Activity Logging:** Every action within the system is automatically tracked and timestamped.
 - **Real-Time Notifications:** In-app notification center for pending requests and status changes.
 
+## 📚 Project Documentation
+Comprehensive architectural and engineering documentation with Mermaid diagrams:
+- [📄 Product Requirements Document (PRD)](./PRD.md) - Vision, personas, functional specs, and NFRs.
+- [⚙️ Technical Requirements Document](./TECHNICAL_REQUIREMENTS.md) - System architecture, persistence engine, and RBAC matrix.
+- [🔀 Application Flow & User Journeys](./APP_FLOW.md) - Navigation maps, sequence diagrams, and lifecycle state machines.
+- [🎨 Design Brief & UI/UX Guidelines](./DESIGN_BRIEF.md) - Design system, color tokens, and ASCII wireframes.
+- [🗄️ Background Schema & Data Models](./BACKGROUND_SCHEMA.md) - Entity-Relationship diagram (ERD) and relational schemas.
+- [📅 Implementation Plan & Roadmap](./IMPLEMENTATION_PLAN.md) - Gantt chart, milestones, WBS, and risk assessment.
+
 ## 🚀 Live Demo & Access
 
 *(Add your live deployed link here, e.g., Vercel or Netlify)*
