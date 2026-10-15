@@ -13,14 +13,14 @@ A fully functional frontend replica of a Document Management System. This demo s
 - **Real-Time Notifications:** In-app notification center for pending requests and status changes.
 
 ## 📚 Project Documentation
-Comprehensive architectural and engineering documentation with Mermaid diagrams:
-- [🏛️ Project Architecture (ARCHITECTURE.md)](./ARCHITECTURE.md) - Multi-tier architecture, component trees, and data flow pipelines.
-- [📄 Product Requirements Document (PRD)](./PRD.md) - Vision, personas, functional specs, and NFRs.
-- [⚙️ Technical Requirements Document](./TECHNICAL_REQUIREMENTS.md) - System architecture, persistence engine, and RBAC matrix.
-- [🔀 Application Flow & User Journeys](./APP_FLOW.md) - Navigation maps, sequence diagrams, and lifecycle state machines.
-- [🎨 Design Brief & UI/UX Guidelines](./DESIGN_BRIEF.md) - Design system, color tokens, and ASCII wireframes.
-- [🗄️ Background Schema & Data Models](./BACKGROUND_SCHEMA.md) - Entity-Relationship diagram (ERD) and relational schemas.
-- [📅 Implementation Plan & Roadmap](./IMPLEMENTATION_PLAN.md) - Gantt chart, milestones, WBS, and risk assessment.
+Comprehensive architectural and engineering documentation with Mermaid diagrams located in the [`docs/`](./docs) folder:
+- [🏛️ Project Architecture](./docs/ARCHITECTURE.md) - Multi-tier architecture, component trees, and data flow pipelines.
+- [📄 Product Requirements Document (PRD)](./docs/PRD.md) - Vision, personas, functional specs, and NFRs.
+- [⚙️ Technical Requirements Document](./docs/TECHNICAL_REQUIREMENTS.md) - System architecture, persistence engine, and RBAC matrix.
+- [🔀 Application Flow & User Journeys](./docs/APP_FLOW.md) - Navigation maps, sequence diagrams, and lifecycle state machines.
+- [🎨 Design Brief & UI/UX Guidelines](./docs/DESIGN_BRIEF.md) - Design system, color tokens, and ASCII wireframes.
+- [🗄️ Background Schema & Data Models](./docs/BACKGROUND_SCHEMA.md) - Entity-Relationship diagram (ERD) and relational schemas.
+- [📅 Implementation Plan & Roadmap](./docs/IMPLEMENTATION_PLAN.md) - Gantt chart, milestones, WBS, and risk assessment.
 
 ## 🏛️ Architecture Highlights
 The application is structured as a decoupled Single Page Application (SPA) with a **Zero-Backend Virtual Database Engine**:
@@ -33,7 +33,7 @@ The application is structured as a decoupled Single Page Application (SPA) with 
                        ↓
 [ Persistence Subsystem: Browser LocalStorage (Auto-Sync & BeforeUnload) ]
 ```
-For in-depth diagrams and implementation breakdowns, see [ARCHITECTURE.md](./ARCHITECTURE.md).
+For in-depth diagrams and implementation breakdowns, see [ARCHITECTURE.md](./docs/ARCHITECTURE.md).
 
 ## 🚀 Live Demo & Access
 

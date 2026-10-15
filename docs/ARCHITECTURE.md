@@ -113,13 +113,17 @@ graph TB
 The codebase follows a domain-driven, modular directory hierarchy:
 
 ```
-├── App.tsx                     # Top-level authentication conditional renderer
-├── index.html                  # HTML5 entry point with responsive viewport
-├── index.tsx                   # React root hydration and context wrapping
-├── package.json                # Project dependencies and Vite build scripts
-├── tsconfig.json               # TypeScript compiler rules and path mappings
-├── types.ts                    # Universal TypeScript data contracts and enums
-├── vite.config.ts              # Vite bundler configuration
+├── docs/                       # Project Documentation Suite
+│   ├── ARCHITECTURE.md         # Multi-tier system architecture & subsystems
+│   ├── PRD.md                  # Product Requirements Document
+│   ├── TECHNICAL_REQUIREMENTS.md# Technical specifications & RBAC matrix
+│   ├── APP_FLOW.md             # Navigation maps & sequence flows
+│   ├── DESIGN_BRIEF.md         # UI/UX design guidelines & wireframes
+│   ├── BACKGROUND_SCHEMA.md    # Relational models & ERD specifications
+│   └── IMPLEMENTATION_PLAN.md  # Engineering roadmap & milestones
+│
+├── database/                   # Database Schemas & Seeds
+│   └── schema.sql              # Relational DDL & seed script
 │
 ├── components/                 # Component Library
 │   ├── auth/
@@ -152,8 +156,19 @@ The codebase follows a domain-driven, modular directory hierarchy:
 │   ├── AuthContext.tsx         # Authentication state, login/logout, session tokens
 │   └── DataContext.tsx         # Shared state for docs, users, requests, and logs
 │
-└── services/
-    └── mockApi.ts              # Virtual backend, LocalStorage sync, and seed data
+├── services/
+│   ├── mockApi.ts              # Virtual backend, LocalStorage sync, and seed data
+│   └── mysqlApi.ts             # Backend integration service
+│
+├── types.ts                    # Universal TypeScript data contracts and enums
+├── App.tsx                     # Top-level authentication conditional renderer
+├── index.html                  # HTML5 entry point with responsive viewport
+├── index.tsx                   # React root hydration and context wrapping
+├── package.json                # Project dependencies and Vite build scripts
+├── tsconfig.json               # TypeScript compiler rules and path mappings
+├── vite.config.ts              # Vite bundler configuration
+├── README.md                   # Repository overview & setup instructions
+└── LICENSE                     # Open-source MIT License
 ```
 
 ---
