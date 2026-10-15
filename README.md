@@ -14,12 +14,26 @@ A fully functional frontend replica of a Document Management System. This demo s
 
 ## 📚 Project Documentation
 Comprehensive architectural and engineering documentation with Mermaid diagrams:
+- [🏛️ Project Architecture (ARCHITECTURE.md)](./ARCHITECTURE.md) - Multi-tier architecture, component trees, and data flow pipelines.
 - [📄 Product Requirements Document (PRD)](./PRD.md) - Vision, personas, functional specs, and NFRs.
 - [⚙️ Technical Requirements Document](./TECHNICAL_REQUIREMENTS.md) - System architecture, persistence engine, and RBAC matrix.
 - [🔀 Application Flow & User Journeys](./APP_FLOW.md) - Navigation maps, sequence diagrams, and lifecycle state machines.
 - [🎨 Design Brief & UI/UX Guidelines](./DESIGN_BRIEF.md) - Design system, color tokens, and ASCII wireframes.
 - [🗄️ Background Schema & Data Models](./BACKGROUND_SCHEMA.md) - Entity-Relationship diagram (ERD) and relational schemas.
 - [📅 Implementation Plan & Roadmap](./IMPLEMENTATION_PLAN.md) - Gantt chart, milestones, WBS, and risk assessment.
+
+## 🏛️ Architecture Highlights
+The application is structured as a decoupled Single Page Application (SPA) with a **Zero-Backend Virtual Database Engine**:
+```
+[ Presentation Layer: React 18 + Tailwind CSS ]
+                       ↓
+[ State & Providers: AuthContext + DataContext ]
+                       ↓
+[ Business Logic & Virtual API: mockApi Controllers ]
+                       ↓
+[ Persistence Subsystem: Browser LocalStorage (Auto-Sync & BeforeUnload) ]
+```
+For in-depth diagrams and implementation breakdowns, see [ARCHITECTURE.md](./ARCHITECTURE.md).
 
 ## 🚀 Live Demo & Access
 
@@ -71,3 +85,6 @@ To reset the application to its clean, original seeded state:
 2. Go to the **Application** (Chrome/Edge) or **Storage** (Firefox) tab.
 3. Clear the `Local Storage` for the site.
 4. Refresh the page. (Alternatively, just open the app in a new Incognito/Private window).
+
+## 📄 License
+This project is open-source and available under the [MIT License](./LICENSE).
